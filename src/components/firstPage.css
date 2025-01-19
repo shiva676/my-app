@@ -1,0 +1,21 @@
+.parent {
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align to the top vertically */
+    height: 100vh; /* Full viewport height */
+    margin: auto;
+    background-color: #f0f0f0; /* Optional: background color for the parent */
+}
+
+.firstbox {
+    clip-path: circle(50% at 50% 50%); /* Circular shape */
+    width: 800px; /* Increase width */
+    height: 100px; /* Reduce height */
+    background-color: lightblue; /* Add a background color */
+    color: #282c34; /* Text color */
+    display: flex; /* Flexbox for inner alignment (if needed) */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    font-size: 18px; /* Text size */
+    text-align: center; /* Align text center */
+}
